@@ -1,0 +1,46 @@
+App Workflow:
+
+1. model(request,response) (https://app.quicktype.io/)
+2. exception (skip)
+3. api constant(api link)
+4. api/remote
+5. repository 
+6. repositoryimpl
+7. domain/use case
+8. cubit
+9. dependency (domain/usecase, repository, api/remote, cubit)
+10. screen
+11. widget
+
+
+
+
+======================================================
+
+Target:
+--> generate model(request,response) for Get Cn List in Manage Courier 
+--> generate exception for Get Cn List in Manage Courier
+--> add api constant(api link) forGet Cn List in Manage Courier 
+--> generate remote for Get Cn List in Manage Courier /
+--> generate repository for Get Cn List in Manage Courier  
+--> generate repositoryimpl for Get Cn List in Manage Courier 
+--> generate domain for Get Cn List in Manage Courier /use case
+--> generate cubit for Get Cn List in Manage Courier 
+--> add dependency for Get Cn List in Manage Courier  (domain/usecase, repository, api/remote, cubit)
+--> generate screen for Get Cn List in Manage Courier 
+--> generate widget for Get Cn List in Manage Courier 
+--> fetch data
+
+
+======================================================
+
+
+# @BASE_COMMON_URL=http://localhost:3000/common/api/v1
+//live common
+@BASE_COMMON_URL=https://dcourier.celloscope.net/common/api/v1
+# @BASE_URL=http://localhost:3002/agent/api/v1
+
+//live base
+@BASE_URL=https://dcourier.celloscope.net/agent/api/v1
+
+

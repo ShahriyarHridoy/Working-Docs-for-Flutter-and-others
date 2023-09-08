@@ -1,0 +1,59 @@
+git pull -> pull
+git checkout 06_sprint  -> swithch branch
+git checkout -b 06_sprint_64_App_Drawer_Design  -> Create Branch
+git push -u origin 06_sprint_64_App_Drawer_Design --> push newly created branch
+==================================================================================================
+
+Push on git :
+
+git add .  --> for git add
+
+git commit -m "message" --> for sending message
+
+git push  --> push on git after completing work
+
+=======================================================
+
+
+How to merge file on Git>>>>>>>>
+
+1st go to sprint where you want to merge; then
+-1 git pull
+-2 git merge your_branch_name
+-3 i(or insert)
+-4 Message
+-4 Ctrl c
+-5 :
+-6 wq!
+-7 git status
+-8 git push
+after giving the command no 2, if no conflict show then skip step 3,4,5
+===============================================================================
+
+*git rebase:
+1. git status
+2. git add .
+3. git commit -m " "
+4.git pull
+5. git rebase origin/branch_name (git rebase origin/01_sprint)
+6. git pull
+7. git push
+===============================================================
+// delete branch locally
+git branch -d localBranchName
+// delete branch remotely
+git push origin --delete remoteBranchName
+=====================================================================================
+
+# git rename: 
+	- git branch -m 09_sprint_101_Single_Premium_Calculator_Design_and_API_call
+	
+============================================================================================
+
+# How to build build release apk in flutter:
+
+	- flutter build apk --release --no-sound-null-safety
+
+
+
+
